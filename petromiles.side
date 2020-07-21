@@ -1,0 +1,306 @@
+{
+  "id": "a6efb7ec-f05e-4bc5-9930-688c1d3c4619",
+  "version": "2.0",
+  "name": "petromiles",
+  "url": "http://petromiles-frontend.herokuapp.com",
+  "tests": [{
+    "id": "5a9e1910-acc0-4b98-8a07-5a4e073c3324",
+    "name": "comprapuntos",
+    "commands": [{
+      "id": "1acb4afa-6331-4b3a-9ec2-2838c086a829",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9e79c28-5c5c-4155-b7e7-4b6129e10543",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "50b325a3-a22d-4495-a75e-071e42cfccca",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-27",
+      "targets": [
+        ["id=input-27", "id"],
+        ["name=Email", "name"],
+        ["css=#input-27", "css:finder"],
+        ["xpath=//input[@id='input-27']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div/div/div/div/div/div[2]/div/form/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a921edeb-723b-46e6-ae00-22f0ff9f792e",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-27",
+      "targets": [
+        ["id=input-27", "id"],
+        ["name=Email", "name"],
+        ["css=#input-27", "css:finder"],
+        ["xpath=//input[@id='input-27']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div/div/div/div/div/div[2]/div/form/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "miguele.coccaro@gmail.com"
+    }, {
+      "id": "bd3a6f4c-8f5e-454a-a557-cf1d4d0959e9",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=Password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div/div/div/div/div/div[2]/div/form/div[2]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9544ec35-edec-4385-b773-e84fddec02b1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.theme--dark > .v-btn__content",
+      "targets": [
+        ["css=.theme--dark > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div/div/div/div/div/div[2]/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8abe5fec-2950-49a4-b605-de70577e91bb",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=Password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div/div/div/div/div/div[2]/div/form/div[2]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "clave1234"
+    }, {
+      "id": "df5b28af-e304-4582-b3bc-6b6e2e325d5d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.theme--dark > .v-btn__content",
+      "targets": [
+        ["css=.theme--dark > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div/div/div/div/div/div[2]/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7080ce7c-20c1-4d70-bbad-0457f2a0d217",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.v-btn--loading > .v-btn__content",
+      "targets": [
+        ["css=.v-btn--loading > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/div/div/div/div/div/div/div/div[2]/div[3]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcf8f9fe-14e9-4957-9cd4-212e5ab035f7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=div:nth-child(2) > .v-main .v-app-bar__nav-icon .v-icon",
+      "targets": [
+        ["css=div:nth-child(2) > .v-main .v-app-bar__nav-icon .v-icon", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/main/div/div[2]/main/div/div/header/div/button/span/i", "xpath:idRelative"],
+        ["xpath=//div[2]/main/div/div/header/div/button/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43867958-801b-40e8-8402-47e5fbf29e9a",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .v-main .v-app-bar__nav-icon .v-icon",
+      "targets": [
+        ["css=div:nth-child(2) > .v-main .v-app-bar__nav-icon .v-icon", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/main/div/div[2]/main/div/div/header/div/button/span/i", "xpath:idRelative"],
+        ["xpath=//div[2]/main/div/div/header/div/button/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40b76054-734b-410f-b47b-61a27bc5a191",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=div:nth-child(2) > .v-main > .v-main__wrap > div .v-app-bar__nav-icon .v-icon",
+      "targets": [
+        ["css=div:nth-child(2) > .v-main > .v-main__wrap > div .v-app-bar__nav-icon .v-icon", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/main/div/main/div/div[2]/main/div/div/header/div/button/span/i", "xpath:idRelative"],
+        ["xpath=//div[2]/main/div/div/header/div/button/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d3080cd-d642-404f-982d-80974427453f",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .v-main:nth-child(1) > .v-main__wrap:nth-child(1) > div:nth-child(1) .v-list-item:nth-child(4) .v-list-item__title:nth-child(1)",
+      "targets": [
+        ["css=div:nth-child(2) > .v-main:nth-child(1) > .v-main__wrap:nth-child(1) > div:nth-child(1) .v-list-item:nth-child(4) .v-list-item__title:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/main/div/main/div/div[2]/main/div/div/nav/div/div/div/a[4]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/main/div/div/nav/div/div/div/a[4]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81976e46-03dd-41a4-ac3d-0ab703d59c7b",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-191",
+      "targets": [
+        ["id=input-191", "id"],
+        ["css=#input-191", "css:finder"],
+        ["xpath=//input[@id='input-191']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/main/div/div[2]/div/div/div/div[3]/div/form/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "698a70a6-c1ba-4009-b18c-4c50f0701b0c",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-191",
+      "targets": [
+        ["id=input-191", "id"],
+        ["css=#input-191", "css:finder"],
+        ["xpath=//input[@id='input-191']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/main/div/div[2]/div/div/div/div[3]/div/form/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "4000"
+    }, {
+      "id": "0b929dd7-9ada-4c3d-bded-00c864da22b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-select__selections",
+      "targets": [
+        ["css=.v-select__selections", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/main/div/div[2]/div/div/div/div[3]/div/form/div[4]/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ea556c8-bffa-4467-9347-6d85fad1f1ee",
+      "comment": "",
+      "command": "click",
+      "target": "id=list-item-228-1",
+      "targets": [
+        ["id=list-item-228-1", "id"],
+        ["css=#list-item-228-1", "css:finder"],
+        ["xpath=//div[@id='list-item-228-1']", "xpath:attributes"],
+        ["xpath=//div[@id='list-208']/div[2]", "xpath:idRelative"],
+        ["xpath=//body/div/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ba8e6b0-19f3-451a-82cc-7f51684ee4e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col .v-btn__content",
+      "targets": [
+        ["css=.col .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/main/div/div[2]/div/div/div/div[3]/div/form/div[5]/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24e60282-e5b0-4204-8971-a4502276f61b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.success > .v-btn__content",
+      "targets": [
+        ["css=.success > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div[4]/div/div/div[2]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad13e4bd-9f74-4184-a79b-6ff5c4fa983f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.success > .v-btn__content",
+      "targets": [
+        ["css=.success > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div[4]/div/div/div[2]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be2530a6-e9ed-4c7b-8f8c-616047d358be",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.success > .v-btn__content",
+      "targets": [
+        ["css=.success > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div[4]/div/div/div[2]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7dee0053-850c-4fcf-9443-c71ef2c69bb4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.v-btn--router > .v-btn__content",
+      "targets": [
+        ["css=.v-btn--router > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div[5]/div/div/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98d2b352-3f89-4abd-88d6-9755709fbdf7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-btn--router > .v-btn__content",
+      "targets": [
+        ["css=.v-btn--router > .v-btn__content", "css:finder"],
+        ["xpath=//div[@id='app']/div[5]/div/div/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51be2aec-bbb7-4fa4-bb0c-463c3b8efbb9",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(1) .v-btn .v-icon",
+      "targets": [
+        ["css=tr:nth-child(1) .v-btn .v-icon", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/main/div/div[2]/div/div[2]/div[2]/div[2]/div/table/tbody/tr/td[7]/button/span/i", "xpath:idRelative"],
+        ["xpath=//td[7]/button/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bd3d344-8453-41ca-91be-2b69d150e96f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v-overlay--active > .v-overlay__scrim",
+      "targets": [
+        ["css=.v-overlay--active > .v-overlay__scrim", "css:finder"],
+        ["xpath=//div[@id='app']/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "769e502e-3ceb-4e5c-85b9-d277e61b2aaf",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5a9e1910-acc0-4b98-8a07-5a4e073c3324"]
+  }],
+  "urls": ["http://petromiles-frontend.herokuapp.com/"],
+  "plugins": []
+}
