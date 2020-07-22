@@ -9,9 +9,9 @@ Desarrollo de software
 Carlos Barroeta   
 
 ##### Integrantes:
-Gabriel Tovar
-Miguel Coccaro
-Christian Neira
+- Gabriel Tovar
+- Miguel Coccaro
+- Christian Neira
  
 ## Plan de Pruebas
 
