@@ -2,7 +2,7 @@
 const { Builder, By, Key, until } = require('selenium-webdriver')
 const assert = require('assert')
 
-describe('comprapuntos', function() {
+describe('1login', function() {
   this.timeout(30000)
   let driver
   let vars
@@ -13,7 +13,7 @@ describe('comprapuntos', function() {
   afterEach(async function() {
     await driver.quit();
   })
-  it('comprapuntos', async function() {
+  it('1login', async function() {
     await driver.get("http://petromiles-frontend.herokuapp.com/")
     await driver.manage().window().setRect(1382, 744)
     await driver.findElement(By.id("input-27")).click()
@@ -29,6 +29,7 @@ describe('comprapuntos', function() {
       const element = await driver.findElement(By.CSS_SELECTOR, "body")
       await driver.actions({ bridge: true }).moveToElement(element, 0, 0).perform()
     }
+    await driver.executeScript("window.scrollTo(0,0)")
     {
       const element = await driver.findElement(By.css("div:nth-child(2) > .v-main .v-app-bar__nav-icon .v-icon"))
       await driver.actions({ bridge: true }).moveToElement(element).perform()
@@ -39,26 +40,5 @@ describe('comprapuntos', function() {
       await driver.actions({ bridge: true }).moveToElement(element, 0, 0).perform()
     }
     await driver.findElement(By.css("div:nth-child(2) > .v-main:nth-child(1) > .v-main__wrap:nth-child(1) > div:nth-child(1) .v-list-item:nth-child(4) .v-list-item__title:nth-child(1)")).click()
-    await driver.findElement(By.id("input-191")).click()
-    await driver.findElement(By.id("input-191")).sendKeys("4000")
-    await driver.findElement(By.css(".v-select__selections")).click()
-    await driver.findElement(By.id("list-item-228-1")).click()
-    await driver.findElement(By.css(".col .v-btn__content")).click()
-    {
-      const element = await driver.findElement(By.css(".success > .v-btn__content"))
-      await driver.actions({ bridge: true }).moveToElement(element).perform()
-    }
-    await driver.findElement(By.css(".success > .v-btn__content")).click()
-    {
-      const element = await driver.findElement(By.CSS_SELECTOR, "body")
-      await driver.actions({ bridge: true }).moveToElement(element, 0, 0).perform()
-    }
-    {
-      const element = await driver.findElement(By.css(".v-btn--router > .v-btn__content"))
-      await driver.actions({ bridge: true }).moveToElement(element).perform()
-    }
-    await driver.findElement(By.css(".v-btn--router > .v-btn__content")).click()
-    await driver.findElement(By.css("tr:nth-child(1) .v-btn .v-icon")).click()
-    await driver.findElement(By.css(".v-overlay--active > .v-overlay__scrim")).click()
   })
 })
