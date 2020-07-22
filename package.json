@@ -13,7 +13,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "npm run single",
-    "single": "./node_modules/.bin/mocha test/2comprapuntos.spec.js"
+    "single": "./node_modules/.bin/mocha test/comprapuntos.spec.js"
   },
   "repository": {
     "type": "git",
