@@ -24,8 +24,8 @@ Framework de pruebas: Mocha JS
 #### Pre-requisitos:
 
 ##### Requisitos para poder ejecutar la prueba:
-Tener una cuenta de usuario registrada en Petromiles, en este caso se utilizará los datos del usuario perteneciente al correo miguele.coccaro@gmail.com.
-Tener una cuenta bancaria registrada con la que pueda realizarse la compra de puntos. Nuevamente, el script de pruebas utilizará la información de la cuenta del correo antes mencionado.
+- Tener una cuenta de usuario registrada en Petromiles, en este caso se utilizará los datos del usuario perteneciente al correo miguele.coccaro@gmail.com.
+- Tener una cuenta bancaria registrada con la que pueda realizarse la compra de puntos. Nuevamente, el script de pruebas utilizará la información de la cuenta del correo antes mencionado.
 
 #### Pasos que se realizarán en la prueba:
 
