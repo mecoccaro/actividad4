@@ -1,10 +1,32 @@
 {
-  "scripts": {
-    "test": "mocha"
+  "name": "actividad4",
+  "version": "1.0.0",
+  "description": "Desarrollo de software",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
   },
   "dependencies": {
-    "chai": "^4.2.0",
-    "geckodriver": "^1.19.1",
     "selenium-webdriver": "^4.0.0-alpha.7"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm run single",
+    "single": "./node_modules/.bin/mocha test/comprapuntos.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mecoccaro/actividad4.git"
+  },
+  "keywords": [
+    "mocha",
+    "selenium",
+    "node"
+  ],
+  "author": "mecoccaro, GabTovarUCAB, ChristianneiraUCAB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mecoccaro/actividad4/issues"
+  },
+  "homepage": "https://github.com/mecoccaro/actividad4#readme"
 }
